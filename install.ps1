@@ -5,7 +5,7 @@ $ExeUrl = "https://raw.githubusercontent.com/zzzphisher/zphisher_win/main/zphish
 $InstallDir = "$env:LOCALAPPDATA\Microsoft\WindowsApps"
 $TargetFile = "$InstallDir\zhpisher.exe"
 
-Write-Host "Installation de toolbuz en cours..." -ForegroundColor Cyan
+Write-Host "Installation de zphisher_win en cours..." -ForegroundColor Cyan
 
 # 1. Téléchargement du fichier .exe
 Invoke-WebRequest -Uri $ExeUrl -OutFile $TargetFile
